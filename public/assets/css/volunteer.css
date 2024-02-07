@@ -1,0 +1,176 @@
+.volunteer .bold {
+  font-weight: bold;
+}
+
+.volunteer .hero {
+  width: 100%;
+  background: url("/assets/images/make-a-wish-volunteer.jpg") no-repeat center;
+  background-size: cover;
+  padding: 7em;
+}
+
+@media only screen and (min-width: 320px) {
+  .volunteer .hero {
+    min-height: 205px;
+    padding: 7em;
+  }
+}
+
+@media only screen and (min-width: 448px) {
+  .volunteer .hero {
+    min-height: 275px;
+    padding: 10em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .volunteer .hero {
+    min-height: 475px;
+    padding: 12em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .volunteer .hero {
+    min-height: 600px;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .volunteer .hero {
+    min-height: 750px;
+  }
+}
+
+.volunteer p {
+  font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+}
+
+.volunteer .logo {
+  text-align: center;
+}
+
+.volunteer .content {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 5em;
+}
+
+.volunteer .content .dynamic {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.volunteer .content .headline {
+  font-size: 1.5em;
+  padding-top: 2em;
+  text-align: justify;
+}
+
+.volunteer .blue {
+  background-color: #0057b8;
+  border-top: 5px solid #00BAB3;
+}
+
+.volunteer .blue_alt {
+  background-color: #8DC8E8;
+  border-top: 5px solid #00BAB3;
+}
+
+.volunteer .card {
+  color: #fff;
+  padding: 1em;
+  min-height: 48em;
+  margin-top: 1em;
+}
+
+.volunteer .card .intro {
+  text-align: center;
+}
+
+.volunteer .card .intro .name {
+  font-size: 1.55em;
+}
+
+.volunteer .card .intro .age,
+.volunteer .card .intro .bio {
+  font-style: italic;
+}
+
+.volunteer .card .intro img {
+  max-width: 200px;
+  width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+
+.volunteer .card .info tr {
+  border-bottom: 1px solid #0187db !important;
+}
+
+.volunteer .card .info td {
+  color: #fff;
+}
+
+.volunteer .card .info td span.sign_up:hover {
+  color: #d0d0d0;
+  font-weight: bold;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.modal.blue {
+  background-color: #0057b8 !important;
+  border-top: 5px solid #014169 !important;
+  padding: 2em 0;
+  color: #fff;
+  width: 50% !important;
+  left: 60% !important;
+  top: 50% !important;
+  font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+  text-align: center;
+}
+
+.modal.blue .content {
+  background-color: #0057b8 !important;
+  text-align: center;
+}
+
+.modal.blue form {
+  text-align: center;
+  padding: 0 6em;
+}
+
+.modal.blue form input[type=text],
+.modal.blue form input[type=email],
+.modal.blue form input[type=search],
+.modal.blue form input[type=password],
+.modal.blue form input[type=tel] {
+  background-color: #0187db !important;
+  color: #fff;
+  border-radius: 0 !important;
+  margin: 0.75em 0;
+}
+
+.modal.blue form input[type=text]:focus,
+.modal.blue form input[type=email]:focus,
+.modal.blue form input[type=search]:focus,
+.modal.blue form input[type=password]:focus,
+.modal.blue form input[type=tel]:focus {
+  color: #fff !important;
+}
+
+.modal.blue form input[type=text]::-webkit-input-placeholder,
+.modal.blue form input[type=email]::-webkit-input-placeholder,
+.modal.blue form input[type=search]::-webkit-input-placeholder,
+.modal.blue form input[type=password]::-webkit-input-placeholder,
+.modal.blue form input[type=tel]::-webkit-input-placeholder {
+  color: #fff !important;
+}
+
+.modal.blue form input[type=submit] {
+  background-color: #00BAB3;
+  color: #fff;
+  border-radius: 0 !important;
+}
+

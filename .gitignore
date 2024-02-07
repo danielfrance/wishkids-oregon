@@ -1,0 +1,16 @@
+/vendor
+/node_modules
+/public/storage
+/public/assets/images/kids/
+/public/assets/.DS_Store
+/resources/assets/.DS_Store
+/resources/views/.DS_Store
+/public/.DS_Store
+Homestead.yaml
+Homestead.json
+.env
+.vscode
+.idea
+.phpintel
+.DS_Store
+/.phpunit.cache

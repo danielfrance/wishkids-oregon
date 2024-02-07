@@ -1,0 +1,41 @@
+footer {
+  background-color: #0057B8;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 1em;
+  color: #fff;
+}
+
+footer p.left {
+  float: left;
+}
+
+footer p.right {
+  float: right;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+textarea.email_message {
+  background-color: #0187db !important;
+  color: #fff;
+  border-radius: 0 !important;
+  margin: 0.75em 0;
+}
+
+textarea.email_message:focus {
+  color: #fff !important;
+}
+
+textarea.email_message::-webkit-input-placeholder {
+  color: #fff !important;
+}
+

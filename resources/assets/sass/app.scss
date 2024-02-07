@@ -1,0 +1,37 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+footer{
+  background-color: #0057B8;
+  position: fixed;
+  width: 100%;
+  bottom:0;
+  padding: 1em;
+  color: #fff;
+  p.left{
+    float: left;
+  }
+  p.right{
+    float: right;
+  }
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.text-centered{
+    text-align: center;
+}
+
+textarea.email_message {
+  background-color: #0187db !important;
+  color: #fff;
+  border-radius: 0 !important;
+  margin: 0.75em 0;
+  &:focus {
+    color: #fff !important;
+  }
+  &::-webkit-input-placeholder {
+    color: #fff !important;
+  }
+}

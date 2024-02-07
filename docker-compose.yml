@@ -1,0 +1,41 @@
+version: "2"
+services:
+  app:
+    build:
+      context: ./
+    ports:
+      - "8081:80"
+    environment:
+      - "DB_DATABASE=wishkidsoregon_dev"
+      - "DB_PORT=3306"
+      - "DB_HOST=database"
+      - "BASE_PW=password"
+      - "APP_ENV=${APP_ENV}"
+    working_dir: /app
+    volumes:
+      - ./:/app
+      - /app/vendor
+      - /app/storage
+      - /app/node_modules
+    networks:
+      - MAWOrg
+
+  database:
+    platform: linux/amd64
+    image: mysql:8.0
+    environment:
+      - "MYSQL_DATABASE=wishkidsoregon_dev"
+      - "MYSQL_ROOT_PASSWORD=secret"
+    volumes:
+      - dbdata:/var/lib/mysql
+    ports:
+      - "33062:3306"
+    networks:
+      - MAWOrg
+
+volumes:
+  dbdata:
+
+networks:
+  MAWOrg:
+    driver: bridge

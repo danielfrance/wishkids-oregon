@@ -1,0 +1,50 @@
+2023-04-21 19:05:47,477 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-04-21 19:05:47,479 INFO Included extra file "/etc/supervisor/conf.d/*.conf" during parsing
+2023-04-21 19:05:47,486 INFO supervisord started with pid 362
+2023-04-21 19:05:48,512 INFO spawned: 'php-fpm' with pid 369
+2023-04-21 19:05:48,523 INFO spawned: 'nginx' with pid 371
+2023-04-21 19:05:49,727 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-04-21 19:05:49,731 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-04-21 19:27:30,275 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-04-21 19:27:30,278 INFO Included extra file "/etc/supervisor/conf.d/*.conf" during parsing
+2023-04-21 19:27:30,285 INFO supervisord started with pid 227
+2023-04-21 19:27:31,306 INFO spawned: 'php-fpm' with pid 234
+2023-04-21 19:27:31,312 INFO spawned: 'nginx' with pid 236
+2023-04-21 19:27:32,512 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-04-21 19:27:32,513 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-04-21 19:33:00,281 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-04-21 19:33:00,283 INFO Included extra file "/etc/supervisor/conf.d/*.conf" during parsing
+2023-04-21 19:33:00,291 INFO supervisord started with pid 218
+2023-04-21 19:33:01,316 INFO spawned: 'php-fpm' with pid 225
+2023-04-21 19:33:01,329 INFO spawned: 'nginx' with pid 227
+2023-04-21 19:33:02,520 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-04-21 19:33:02,526 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-04-21 22:46:47,518 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-04-21 22:46:47,521 INFO Included extra file "/etc/supervisor/conf.d/*.conf" during parsing
+2023-04-21 22:46:47,528 INFO supervisord started with pid 152
+2023-04-21 22:46:48,551 INFO spawned: 'php-fpm' with pid 159
+2023-04-21 22:46:48,563 INFO spawned: 'nginx' with pid 161
+2023-04-21 22:46:49,737 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-04-21 22:46:49,746 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-04-24 21:06:41,714 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-04-24 21:06:41,717 INFO Included extra file "/etc/supervisor/conf.d/*.conf" during parsing
+2023-04-24 21:06:41,725 INFO supervisord started with pid 166
+2023-04-24 21:06:42,757 INFO spawned: 'php-fpm' with pid 173
+2023-04-24 21:06:42,768 INFO spawned: 'nginx' with pid 175
+2023-04-24 21:06:43,971 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-04-24 21:06:43,976 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 21:59:42,979 INFO Set uid to user 0 succeeded
+2024-02-07 21:59:42,982 INFO supervisord started with pid 410
+2024-02-07 21:59:43,988 INFO spawned: 'nginx' with pid 411
+2024-02-07 21:59:43,991 INFO spawned: 'php8-fpm' with pid 412
+2024-02-07 21:59:43,995 INFO spawned: 'queue-worker' with pid 413
+2024-02-07 21:59:44,080 WARN exited: queue-worker (exit status 1; not expected)
+2024-02-07 21:59:45,081 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 21:59:45,082 INFO success: php8-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 21:59:45,084 INFO spawned: 'queue-worker' with pid 430
+2024-02-07 21:59:45,174 WARN exited: queue-worker (exit status 1; not expected)
+2024-02-07 21:59:47,180 INFO spawned: 'queue-worker' with pid 437
+2024-02-07 21:59:47,418 WARN exited: queue-worker (exit status 1; not expected)
+2024-02-07 21:59:50,425 INFO spawned: 'queue-worker' with pid 444
+2024-02-07 21:59:50,618 WARN exited: queue-worker (exit status 1; not expected)
+2024-02-07 21:59:51,633 INFO gave up: queue-worker entered FATAL state, too many start retries too quickly

@@ -1,0 +1,8 @@
+.vscode
+.idea
+.phpintel
+.github
+.gitignore
+README.md
+vendor
+node_modules

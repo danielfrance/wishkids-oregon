@@ -1,0 +1,21 @@
+.admin .content {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.admin div.modals .content {
+  margin-top: 1em;
+}
+
+.admin .inline-block {
+  display: inline-block;
+}
+
+.admin div.ui.red.button a {
+  color: #fff;
+}
+
+.admin textarea.bio {
+  background-color: #fff !important;
+}
+
